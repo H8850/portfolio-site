@@ -16,7 +16,7 @@ This was another cool font:
   --background-color: #ffffff;
   --grid-color: lightgray;
 
-  --font-family: 'Courier';
+  --font-family: 'sans-seriff';
   --font-size: 20px;
   --font-weight: 350;
 
@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size);
+  font-size: 30px;
   font-weight: var(--font-weight);
 }
 
@@ -43,7 +43,7 @@ h2{
 }
 
 h3 {
-  font-size: var(--font-size);
+  font-size: 22px;
   font-weight: var(--font-weight);
 }
 
@@ -54,6 +54,8 @@ p {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
+  font-size: 20px;
 }
 
 a:visited {
@@ -69,7 +71,12 @@ a:active {
   color: var(--primary-color);
 }
 
+span {
+  color: var(--primary-color);
+  font-size: 44px;
+}
 button, .button1 {
+  margin: 20px;
   border: none;
   font-family: inherit;
   background-color: var(--primary-color);
@@ -88,7 +95,7 @@ button:hover, button:focus, .button1:hover, .button1:focus {
 }
 
 .button_secondary {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--background-color);
 }
 
@@ -112,7 +119,7 @@ button:hover, button:focus, .button1:hover, .button1:focus {
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid black;
+
 
 }
 
